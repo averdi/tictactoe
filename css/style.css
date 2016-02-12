@@ -1,16 +1,15 @@
 body {
     text-align: center;
     background-color: #20c7df;
-    padding: o 100px 0 100px;
     font-family: 'Lobster', cursive;
 }
 
 .title {
-  color: #20c7df;
+  color: #20c7df ;
   text-align: center;
-  border: 3px dotted black;
-  font-size: 75px;
-  margin-top: 50px;
+  border: 3px dotted white;
+  font-size: 100px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 #game {
@@ -22,12 +21,12 @@ body {
 }
 
 .header {
-    background-color: red;
+    background-color: black;
     width: 100%;
     height: 300px;
 }
 .footer {
-    background-color: red;
+    background-color: black;
     width: 100%;
     height: 100px;
 }
@@ -37,7 +36,7 @@ table {
   margin-right:auto;
   width: 551px;
   border: 5px solid black;
-  background-image: url("../images/notebook.jpg");
+  background-image: url("../images/tvsnow.jpg");
   background-size: cover;
   -webkit-user-select: none;
   margin-bottom: 50px;
@@ -47,8 +46,12 @@ td {
   width: 175px;
   text-align: center;
   font-size: 120px;
-  border: 5px solid black;
+  border: 5px solid white;
   -webkit-border-radius: 10px;
+}
+td:hover {
+    background-image: url("../images/notebook.jpg");
+
 }
 tr {
     border: 5px solid black;
@@ -59,9 +62,24 @@ ol
        margin-left: auto;
        margin-right: auto;
        font-size: 40px;
+       list-style-type: none;
     }
 .button {
       background-color: black;
+}
+.music {
+    margin-top: 30px;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 
-
+}
+.rules {
+    width: 60%;
+    margin: 0 auto;
 }

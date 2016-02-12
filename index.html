@@ -3,53 +3,57 @@
 
 <head>
     <title>Tic Tac Toe!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type= "text/css" href="css/style.css">
 
 </head>
 <body>
-  <div class="container header">
+<div class="container-fluid">
+          <div class="header">
 
-      <h1 class="title">Exes and Ohs</h1>
+              <h1 class="title">Exes and Ohs</h1>
+              <p>It's the little victories...</p>
 
-      <span class="button">
-            <button class="btn btn-default" type="button">Begin!</button>
-            </span>
+              <span class="button">
+                    <button class="btn btn-default" type="button">Begin!</button>
+                    </span>
 
-  </div>
+          </div>
 
-  <audio controls>
-  <source src="images/ex-and-oh.m4a">
-</audio>
+          <audio controls class="music">
+          <source src="images/ex-and-oh.m4a">
+        </audio>
 
-    <table>
+            <table>
+                      <tr>
+                <td id="0"></td>
+                <td id="1"></td>
+                <td id="2"></td>
+              </tr>
               <tr>
-        <td id="0"></td>
-        <td id="1"></td>
-        <td id="2"></td>
-      </tr>
-      <tr>
-        <td id="3"></td>
-        <td id="4"></td>
-        <td id="5"></td>
-      </tr>
-      <tr>
-        <td id="6"></td>
-        <td id="7"></td>
-        <td id="8"></td>
-      </tr>
-    </table>
-
-     <h3>Da Rules!</h3>
-        <ol>
-            <li>Player X always goes first</li>
-            <li>Players take turns putting down X and O</li>
-            <li>The first player to draw three of his or her symbols in a row (whether horizontal, vertical or diagonal) wins!</li>
-        </ol>
-
-<div class="footer">
+                <td id="3"></td>
+                <td id="4"></td>
+                <td id="5"></td>
+              </tr>
+              <tr>
+                <td id="6"></td>
+                <td id="7"></td>
+                <td id="8"></td>
+              </tr>
+            </table>
+      <div class="rules">
+             <h2>Da Rules</h2>
+                <ol>
+                    <li>1.) Player X always goes first</li>
+                    <li>2.) Players take turns putting down X and O</li>
+                    <li>3.) The first player to draw three symbols in a row (whether horizontal, vertical or diagonal) wins!</li>
+                </ol>
+      </div>
+        <div class="footer">
+        </div>
 </div>
-
 </body>
 </html>
