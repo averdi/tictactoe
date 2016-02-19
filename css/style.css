@@ -36,7 +36,7 @@ table {
   margin-right:auto;
   width: 551px;
   border: 5px solid black;
-  background-image: url("../images/tvsnow.jpg");
+  /*background-image: url("../images/tvsnow.jpg");*/
   background-size: cover;
   -webkit-user-select: none;
   margin-bottom: 50px;
@@ -50,7 +50,7 @@ td {
   -webkit-border-radius: 10px;
 }
 td:hover {
-    background-image: url("../images/notebook.jpg");
+    /*background-image: url("../images/notebook.jpg");*/
 
 }
 tr {
@@ -83,3 +83,5 @@ p {
     width: 60%;
     margin: 0 auto;
 }
+
+
