@@ -35,7 +35,7 @@ table {
   margin-left:auto;
   margin-right:auto;
   width: 551px;
-  background-image: url("../images/tvsnow.jpg");
+  /*background-image: url("../images/tvsnow.jpg");*/
   background-size: cover;
   border-collapse: initial;
   margin-bottom: 50px;
@@ -45,7 +45,7 @@ td {
   width: 175px;
   text-align: center;
   font-size: 120px;
-  border: 5px solid white;
+  border: 4px solid white;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -56,10 +56,14 @@ td:hover {
 
 .x-hand{
   background-image: url("../images/x-hand.png");
+  border: 2px solid black;
+  outline: 1px solid black;
 }
 
 .o-hand{
   background-image: url("../images/o_hand.jpeg");
+  border: 2px solid black;
+  outline: 1px solid black;
 }
 
 ol
@@ -72,9 +76,11 @@ ol
     }
 .button {
       background-color: black;
+      margin-top:10px;
+
 }
 .music {
-    margin-top: 30px;
+    margin-top: 1px;
 }
 p {
   color: white;
@@ -90,4 +96,7 @@ p {
     margin: 0 auto;
 }
 
+#messages {
+  font-size: 30px;
+}
 
